@@ -36,9 +36,9 @@ const Services = () => {
 
   return (
     <div className='mt-8'>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 ">
         {services.slice(0, 3).map((service, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-xl p-6">
+          <div key={index} className="bg-white rounded-lg shadow-xl p-6 ml-[20px] mr-[20px]">
             <img src={service.img} alt="" className="h-20 w-20 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-4 text-center text-gray-800">{service.title}</h3>
             <p className="text-gray-700 text-center">{service.description}</p>
