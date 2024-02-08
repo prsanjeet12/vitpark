@@ -34,6 +34,9 @@ const EmergencyPolicy = () => {
       <p className="mb-4">Effective Date: [Insert Effective Date]</p>
 
       <p className="mb-4">By using the Chariots mobility app, you acknowledge that you have read, understood, and agree to comply with the terms of this emergency policy.</p>
+      <div className="flex justify-center">
+        <button className="bg-pink-700 hover:bg-black hover:text- p text-white font-bold py-2 px-8  rounded"> I Agree</button>
+      </div>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs';
 import CancellationPolicy from './components/CancellationPolicy'; // Import the CancellationPolicy component
 import EmergencyPolicy from './components/EmergencyPolicy';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -18,23 +19,27 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cancellation-policy" element={<CancellationPolicy />} />
           <Route path='/emergencies-policy' element={<EmergencyPolicy/>}/>
+          <Route path='/about' element={<AboutUs/>}/>
+          <Route path='business' element={<Business/>}/>
+          <Route path='/services' element={<Services/>}/>
         </Routes>
       </div>
+   
     </Router>
   );
 }
 
 // Define your Home component here
-function Home() {
-  return (
-    <>
-      <Hero />
-      <AboutUs />
-      <Business />
-      <Services />
-      <Footer/>
-    </>
-  );
-}
+// function Home() {
+//   return (
+//     <>
+//       <Hero />
+//       <AboutUs />
+//       <Business />
+//       <Services />
+//       <Footer/>
+//     </>
+//   );
+// }
 
 export default App;
