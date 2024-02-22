@@ -35,7 +35,7 @@ const Services = () => {
   ];
 
   return (
-    <div className='mt-8'>
+    <div className='mt-8' id='services'>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 ">
         {services.slice(0, 3).map((service, index) => (
           <div key={index} className="bg-white rounded-lg shadow-xl p-6 ml-[20px] mr-[20px]">

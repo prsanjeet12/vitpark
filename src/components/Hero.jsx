@@ -3,7 +3,7 @@ import Typewriter from './Typewriter';
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-b mt-6 text-black py-20 font-poppins">
+    <section className="bg-gradient-to-b mt-6 text-black py-20 font-poppins"  id='home'>
       <div className="container-fluid mx-auto text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           <Typewriter text="Welcome to VITPARK" delay={100} />

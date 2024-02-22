@@ -3,7 +3,7 @@ import business from './images/Business.png';
 
 const Business = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center mt-12 mb-12 mx-auto max-w-7xl px-4">
+    <section className="flex flex-col lg:flex-row justify-between items-center mt-12 mb-12 mx-auto max-w-7xl px-4" id='business'>
       {/* Illustration on the left */}
       <div className="lg:w-1/2 lg:pr-8">
         <img src={business} alt="Business Illustration" className="w-full" />

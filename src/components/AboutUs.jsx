@@ -4,7 +4,7 @@ import aboutus from './images/about2.png';
 const AboutUs = () => {
   return (
     <section className="flex flex-col lg:flex-row justify-between 
-    items-center mt-[100px] mb-12 mx-auto max-w-7xl px-4">
+    items-center mt-[100px] mb-12 mx-auto max-w-7xl px-4" id='about'>
       {/* Text content on the left */}
       <div className="lg:w-1/2 lg:pr-8 mt-12 lg:mt-0">
         <h2 className="text-3xl font-bold mb-8 lg:mb-12 text-center lg:text-left">About Us</h2>
