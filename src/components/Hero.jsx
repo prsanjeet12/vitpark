@@ -19,7 +19,9 @@ const Hero = () => {
       
           {/* Repeat similar structure for other service areas */}
         </div>
-        <button className="bg-black text-white py-3 px-6 rounded-md mt-8 transition duration-300">Explore Our Services</button>
+        <button className="bg-black text-white py-3 px-6 rounded-md mt-8 transition duration-300">
+          <a href="#services"> Explore Our Services</a>
+         </button>
         {/* Add client testimonials, statistics, interactive elements, and additional CTAs as needed */}
       </div>
     </section>
